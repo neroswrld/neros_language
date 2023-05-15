@@ -1,0 +1,139 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  h2, h3 {
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+   color: #0d81f4;
+   text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los párrafos */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para los enlaces */
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para los botones */
+  button, input[type="submit"] {
+    background-color: #0066cc;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  button:hover, input[type="submit"]:hover {
+    background-color: #0052a3;
+  }
+  
+  /* Estilos para las imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para las listas */
+  ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para los contenedores */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  /* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  /* Ajustes generales */
+  body {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 10px;
+  }
+
+  /* Estilos para el título principal */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  /* Estilos para los campos de texto */
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Estilos para los botones */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border: none;
+  }
+}
+footer {
+  margin-top: 44px;
+  background-color: #001971;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}

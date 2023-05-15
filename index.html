@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Neroslanguage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+        </style>
+        
+  </head>
+  <body>
+    <h1>Conversión de texto a NerosLanguage</h1>
+    <label for="input-text">Ingrese su texto en español:</label>
+    <textarea id="input-text" rows="4" cols="50"></textarea>
+    <button id="convert-button" onclick="convertToNeroslanguage()">Convertir a Neroslanguage</button>
+    <br>
+    <br>
+    <label for="output-text">Su texto en Neroslanguage:</label>
+    <textarea id="output-text" rows="4" cols="50" ></textarea>
+    <button id="convert-back-button" onclick="convertToSpanish()">Convertir a español</button>
+    <br>
+    <br>
+    <label for="output-text2">Su texto en español:</label>
+    <textarea id="output-text2" rows="4" cols="50" ></textarea>
+    <br>
+    <br>
+    <button id="clear-button" onclick="clearFields()">Limpiar campos</button>
+
+    <script src="scripts.js"></script>
+    <footer>
+        <p>By NerosWrld  © | Todos los derechos reservados</p>
+      </footer>
+      
+  </body>
+</html>
